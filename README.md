@@ -15,15 +15,15 @@ The Serverless Azure Functions for Stack Overflow Integration with Slack project
 
 The main objective of the project is to develop a serverless architecture using Azure Functions that periodically fetches questions from the Stack Overflow API based on specified criteria. The retrieved questions are then formatted and posted to a designated Slack channel, allowing team members or community members to stay up-to-date with the latest inquiries and contribute their expertise.
 
- This approach can be enhanced to target specific tech groups and effectively cope with queries and updates. Here are some potential enhancements for future development:
+This approach can be enhanced to target specific tech groups and effectively cope with queries and updates. Here are some potential enhancements for future development:
 Customized Filtering and Tagging:
-Tech Group Integration: 
-Personalized Recommendations: 
-Sentiment Analysis and Feedback: 
-Interactive Chatbot Integration: 
+### Tech Group Integration
+### Personalized Recommendations
+### Sentiment Analysis and Feedback
+### Interactive Chatbot Integration
 
 
-##End Result
+# End Result
 
 ![Slack](https://github.com/rajahir01/MicroServices/assets/66768536/ccd6b7bf-65e0-4187-8cd1-a58b58fdb27f)
 
