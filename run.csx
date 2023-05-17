@@ -38,7 +38,7 @@ public static async Task<string> MakeSlackRequest(string message)
   {
     var requestData = new StringContent("{'text':'" + message + "'}", Encoding.UTF8, "application/json");
 
-    var response = await client.PostAsync($"https://hooks.slack.com/services/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", requestData);
+    var response = await client.PostAsync($"https://hooks.slack.com/services/<CheckURL>", requestData);
 
     var result = await response.Content.ReadAsStringAsync();
 
